@@ -11,7 +11,9 @@
     tools:context="inc.bugs.timestamp.TimestampActivity">
 
     <TextView
+        android:id="@+id/timestamp_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_centerInParent="true"
+        android:text="No previous log."/>
 </RelativeLayout>
