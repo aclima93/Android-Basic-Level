@@ -20,6 +20,7 @@ public class DumberActivity extends AppCompatActivity {
 
                 // structure our intent
                 Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("message/rfc822");
                 String[] recipientArray = new String[]{"victim1@google.com", "victim2@google.com"};
                 intent.putExtra(Intent.EXTRA_EMAIL, recipientArray);
                 intent.putExtra(Intent.EXTRA_TEXT, "Viagra 50% off");
